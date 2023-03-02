@@ -22,7 +22,7 @@ body {
   #mainHeading {
     color: red;
     background-color: rgb(188, 188, 188);
-    font-size: x-large;
+    font-size: large;
     text-align: center;
   }
   #headerNav li {
