@@ -1,1 +1,69 @@
-/* Write your CSS here! */
+body, header, main, article, p, footer, h1, h2, img, a
+body {
+  margin: 8px;
+  display: block;
+  background-color: rgb(200, 191, 191);
+}
+.row {
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  img {
+    height: 500;
+    width: auto;
+  }
+  #mainHeading {
+    color: red;
+    background-color: rgb(188, 188, 188);
+    font-size: large;
+    text-align: center;
+  }
+  #headerNav li {
+    color: rgb(148, 112, 45);
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+  }
+  a:visited { 
+    text-decoration: none; 
+    color: rgb(148, 112, 45);
+   }
+  #testP.funParagraph {
+    color: green;
+  }
+  p {
+    font-size: large;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    margin: 20px;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(148, 112, 45);
+    background-color: rgb(188, 188, 188);
+    margin: 0%;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #headerNav{
+    text-align: center;
+  }
+  footer {
+    text-align: right;
+    padding: 3em;
+  }
+  footer p {
+    display: inline-block;
+    font-size: smaller;
+  }
